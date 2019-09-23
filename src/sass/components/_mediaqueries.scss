@@ -1,0 +1,129 @@
+/*
+******MEDIA QUERIES
+ */
+
+
+@media screen and (max-width: 900px) {
+  #theheader{
+    margin: 0 24px;
+    margin-bottom: 24px;
+  }
+  #main{
+    margin: 0 24px;
+  }
+  .examplesbtn{
+    padding: 0;
+  }
+  #firstform{
+    padding: 0 24px;
+  }
+
+  #structure{
+    margin: 0 24px;
+  }
+  #send{
+    margin-left:24px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #theheader{
+    margin: 0 12px;
+    margin-bottom: 12px;
+    grid-template-columns: [leftleft] 100% [rightright]0%;
+    grid-template-rows: [first] 95px [second] 95px;
+    padding-top: 48px;
+  }
+  .thedescription, #text{
+    grid-row-start: first;
+    grid-row-end: first;
+    text-align: center;
+  }
+  .examplesbtn,#send{
+    grid-column-start: leftleft;
+    grid-row-start: second;
+    grid-row-end: second;
+    text-align: center;
+    padding-left: 0;
+    place-self: center;
+  }
+  .examplesbtn{
+    padding:0!important;
+  }
+  .examplesbtn,  #examples{
+      margin: 0;
+      // margin-top:-2rem;
+      /* padding:0!important; */
+    }
+    #examples{
+      padding:0 2rem;
+      margin-top: 01rem;
+    }
+
+  #firstform{
+    padding: 0 12px;
+    grid-template-columns: [leftleft] 100% [rightright]0%;
+    grid-template-rows: [first] 48px [second] 48px;
+    margin-bottom: 12px;
+  }
+  #send{
+    margin:0;
+    padding:0;
+    margin-top:24px;
+    padding:0 2rem;
+  }
+
+  #structure{
+    margin: 0;
+    grid-template-columns: [leftleft] 100% [rightright] 0%;
+    grid-template-rows: [first] 48px [second] 48px [third] 48px [forth] 48px;
+  }
+.valuecont1,.rangecont1, .valuecont2,.rangecont2{
+  grid-column-start: leftleft;
+  grid-column-end: leftleft;
+}
+.valuecont1{
+  grid-row-start: first;
+  grid-row-end: first;
+  text-align: center;
+}
+.rangecont1{
+  grid-row-start: second;
+  grid-row-end: second;
+  margin-right: 0;
+}
+.valuecont2{
+  text-align: center;
+  grid-row-start: third;
+  grid-row-end: third;
+
+}
+#value4{
+  text-align: center;
+}
+.rangecont2{
+  grid-row-start: forth;
+  grid-row-end: forth;
+  margin-left: 0;
+}
+
+  #main{
+    margin: 0 12px;
+    padding: 0;
+  }
+
+}
+.fixtopfix{
+  width:100%;
+  grid-column-start: leftleft;
+  grid-column-end: rightright;
+  display: grid;
+  grid-template-columns: [leftleft] 50% [rightright] 50%;
+  grid-auto-flow: row;
+}
+.mastercontainer,.fixtopfix{
+  max-width: 1000px;
+text-align: center;
+margin: auto;
+}
