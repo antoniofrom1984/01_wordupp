@@ -1700,7 +1700,7 @@ label {
   /* line 31, src/sass/components/_mediaqueries.scss */
   #theheader {
     margin: 0 12px;
-    margin-bottom: 12px;
+    margin-bottom: 96px;
     grid-template-columns: [leftleft] 100% [rightright] 0%;
     grid-template-rows: [first] 95px [second] 95px;
     padding-top: 48px;
@@ -1710,8 +1710,10 @@ label {
     grid-row-start: first;
     grid-row-end: first;
     text-align: center;
+    padding: 0 12px;
+    margin-top: 0;
   }
-  /* line 43, src/sass/components/_mediaqueries.scss */
+  /* line 45, src/sass/components/_mediaqueries.scss */
   .examplesbtn, #send {
     grid-column-start: leftleft;
     grid-row-start: second;
@@ -1720,81 +1722,95 @@ label {
     padding-left: 0;
     place-self: center;
   }
-  /* line 51, src/sass/components/_mediaqueries.scss */
+  /* line 53, src/sass/components/_mediaqueries.scss */
   .examplesbtn {
     padding: 0 !important;
   }
-  /* line 54, src/sass/components/_mediaqueries.scss */
+  /* line 56, src/sass/components/_mediaqueries.scss */
   .examplesbtn, #examples {
     margin: 0;
     /* padding:0!important; */
   }
-  /* line 59, src/sass/components/_mediaqueries.scss */
+  /* line 61, src/sass/components/_mediaqueries.scss */
   #examples {
     padding: 0 2rem;
     margin-top: 01rem;
   }
-  /* line 64, src/sass/components/_mediaqueries.scss */
+  /* line 66, src/sass/components/_mediaqueries.scss */
   #firstform {
     padding: 0 12px;
     grid-template-columns: [leftleft] 100% [rightright] 0%;
     grid-template-rows: [first] 48px [second] 48px;
     margin-bottom: 12px;
   }
-  /* line 70, src/sass/components/_mediaqueries.scss */
+  /* line 72, src/sass/components/_mediaqueries.scss */
   #send {
     margin: 0;
     padding: 0;
     margin-top: 24px;
     padding: 0 2rem;
   }
-  /* line 77, src/sass/components/_mediaqueries.scss */
+  /* line 79, src/sass/components/_mediaqueries.scss */
   #structure {
     margin: 0;
     grid-template-columns: [leftleft] 100% [rightright] 0%;
     grid-template-rows: [first] 48px [second] 48px [third] 48px [forth] 48px;
   }
-  /* line 82, src/sass/components/_mediaqueries.scss */
+  /* line 84, src/sass/components/_mediaqueries.scss */
   .valuecont1, .rangecont1, .valuecont2, .rangecont2 {
     grid-column-start: leftleft;
     grid-column-end: leftleft;
   }
-  /* line 86, src/sass/components/_mediaqueries.scss */
+  /* line 88, src/sass/components/_mediaqueries.scss */
   .valuecont1 {
     grid-row-start: first;
     grid-row-end: first;
     text-align: center;
   }
-  /* line 91, src/sass/components/_mediaqueries.scss */
+  /* line 93, src/sass/components/_mediaqueries.scss */
   .rangecont1 {
     grid-row-start: second;
     grid-row-end: second;
     margin-right: 0;
   }
-  /* line 96, src/sass/components/_mediaqueries.scss */
+  /* line 98, src/sass/components/_mediaqueries.scss */
   .valuecont2 {
     text-align: center;
     grid-row-start: third;
     grid-row-end: third;
   }
-  /* line 102, src/sass/components/_mediaqueries.scss */
+  /* line 104, src/sass/components/_mediaqueries.scss */
   #value4 {
     text-align: center;
   }
-  /* line 105, src/sass/components/_mediaqueries.scss */
+  /* line 107, src/sass/components/_mediaqueries.scss */
   .rangecont2 {
     grid-row-start: forth;
     grid-row-end: forth;
     margin-left: 0;
   }
-  /* line 111, src/sass/components/_mediaqueries.scss */
+  /* line 113, src/sass/components/_mediaqueries.scss */
   #main {
     margin: 0 12px;
     padding: 0;
   }
+  /* line 117, src/sass/components/_mediaqueries.scss */
+  .headermenu {
+    height: 48px;
+    -ms-grid-column: leftleft;
+    grid-column-start: leftleft;
+    margin-left: 12px;
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: stretch;
+    place-self: center stretch;
+  }
+  /* line 126, src/sass/components/_mediaqueries.scss */
+  #download {
+    margin-left: 12px;
+  }
 }
 
-/* line 117, src/sass/components/_mediaqueries.scss */
+/* line 130, src/sass/components/_mediaqueries.scss */
 .fixtopfix {
   width: 100%;
   grid-column-start: leftleft;
@@ -1804,7 +1820,7 @@ label {
   grid-auto-flow: row;
 }
 
-/* line 125, src/sass/components/_mediaqueries.scss */
+/* line 138, src/sass/components/_mediaqueries.scss */
 .mastercontainer, .fixtopfix {
   max-width: 1000px;
   text-align: center;
