@@ -88,7 +88,7 @@ function printhis() {
     },
   })
     .then((blob) => {
-      window.saveAs(blob, 'myWordInn.png');
+      window.saveAs(blob, 'myWordUp.png');
       // myDom.style.transform += myDom.style.webkitTransform = "scale(1)";
       // myDom.style.transformOrigin += myDom.style.webkitTransformOrigin = "0 0";
       myDom.style.transform = 'scale(1)';
