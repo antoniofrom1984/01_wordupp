@@ -8,9 +8,16 @@
 const navButton = document.getElementById('opennav');
 const overLay = document.getElementById('sidenavoverlay');
 
+const examplesBtnn = document.getElementById('examples');
+const overLay2 = document.getElementById('galleryoverlay2');
+
 function moveNav(onWidth, onDisplay) {
   document.getElementById('mySidenav').style.width = onWidth;
   document.getElementById('sidenavoverlay').style.display = onDisplay;
+}
+
+function showGallery(display) {
+  document.getElementById('galleryoverlay').style.display = display;
 }
 
 navButton.addEventListener('click', () => {
@@ -33,12 +40,28 @@ overLay.addEventListener('touchstart', () => {
 }, {
   passive: true,
 });
-
+examplesBtnn.addEventListener('click', () => {
+  showGallery('block');
+}, {
+  passive: true,
+});
+overLay2.addEventListener('click', () => {
+  showGallery('none');
+}, {
+  passive: true,
+});
+/**
+ * Gallery
+ * @param onWidth toggles the menu
+ * @param onDisplay toggles the overlay
+ * @returns {void}
+ */
 
 /**
  * download a picture of the wall
  * @returns {void}
  */
+
 
 const downloadThis = document.getElementById('download');
 function getCssRules(styleSheets) {

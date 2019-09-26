@@ -1,0 +1,62 @@
+/*
+*
+* fix bar
+*
+*/
+
+#fixtop{
+  position: fixed;
+  height: 48px;
+  width: 100%;
+  max-width: 1000px;
+  top:0;
+  display: grid;
+  grid-template: "menu logo" ;
+  grid-template-columns: 50% 50%;
+  z-index: 10;
+}
+
+.headermenu{
+  height: 48px;
+  margin-left: 48px;
+  place-self: center stretch;
+  grid-area: menu;
+  justify-self: start;
+}
+
+.thetitle{
+  grid-area: logo;
+  height: 48px;
+  justify-self: end;
+  margin-right: 48px;
+
+}
+
+.thetitle h1{
+  margin-top: 6px;
+}
+
+#download{
+  margin-left: 48px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .headermenu{
+    margin-left: 12px;
+    }
+    .thetitle{
+      margin-right: 12px;
+    }
+    #download{
+      margin-left: 12px;
+    }
+
+}

@@ -1,9 +1,1846 @@
-/*! wordup v2.0.0 | (c) 2019  | UNLICENSED License | http://link-to-your-git-repo.com */
-/*!
- * wordup v2.0.0
- * A description for your project.
- * (c) 2019 
- * UNLICENSED License
- * http://link-to-your-git-repo.com
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}:root{--main-bg-color:#292b31;--main-bg-color-shade:#1e2126;--second-color:#d1d5da;--second-color-shade:#979695;--third-color:#d3394c;--third-color-shade:#722040}#main{background-size:100% 100%;background-repeat:no-repeat;background-position:50% 50%}body{-ms-touch-action:manipulation;touch-action:manipulation;font-style:normal;background-color:var(--main-bg-color)}#fixtop{background-color:var(--main-bg-color-shade);position:fixed;height:48px;width:100%;display:-ms-grid;display:grid;-ms-grid-columns:[leftleft] 50% [rightright] 50%;grid-template-columns:[leftleft] 50% [rightright] 50%;justify-items:center;top:0}.thetitle{font-family:Oswald,sans-serif;height:48px;-ms-grid-column:rightright;grid-column-start:rightright;-ms-grid-column-align:end;justify-self:end;margin-right:48px}.thetitle h1{margin-top:0;color:var(--second-color-shade)}.headermenu{height:48px;-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-row-align:center;-ms-grid-column-align:stretch;place-self:center stretch}#download,.headermenu{margin-left:48px}#download,#opennav{background-color:var(--main-bg-color-shade)}#theheader{background-color:#121417;padding-top:96px;margin:0 48px 48px;padding-bottom:24px;display:-ms-grid;display:grid;-ms-grid-columns:[leftleft] 60% [rightright] 40%;grid-template-columns:[leftleft] 60% [rightright] 40%}.thedescription{-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-column-span:NaN;grid-column-end:rightright;padding:0 48px;margin:1rem 0}.examplesbtn{height:48px!important;-ms-grid-column:rightright;grid-column-start:rightright;-ms-grid-column-span:NaN;grid-column-end:rightright;padding-left:48px!important;padding:0 48px;-ms-grid-row-align:center;place-self:center end}#examples{font-family:lato;color:var(--main-bg-color-shade)!important;background-color:var(--second-color);font-size:.7rem;font-weight:700;padding:0 24px;margin-right:24px}#firstformctn{width:100%;font-family:Lato}#firstform{display:-ms-grid;display:grid;-ms-grid-columns:[leftleft] 80% [rightright] 20%;grid-template-columns:[leftleft] 80% [rightright] 20%;padding:0 48px}#send,#thewords{min-height:48px;text-align:center}#thewords{width:100%;-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-column-span:NaN;grid-column-end:rightright;border:0 solid rgba(180,122,252,0);background-color:var(--second-color)}#thewords:focus{border:#000}#send{font-size:.7rem;margin-left:48px;-ms-grid-column:rightright;grid-column-start:rightright;font-weight:900}#canvas,#structure{display:-ms-grid;display:grid;-ms-grid-columns:[leftleft] 50% [rightright] 50%;grid-template-columns:[leftleft] 50% [rightright] 50%;-ms-grid-rows:[first] 48px [second] 48px [third] 48px;grid-template-rows:[first] 48px [second] 48px [third] 48px;margin:0 48px}#canvas>:first-child,#structure>:first-child{-ms-grid-row:1;-ms-grid-column:1}#canvas>:nth-child(2),#structure>:nth-child(2){-ms-grid-row:1;-ms-grid-column:2}#canvas>:nth-child(3),#structure>:nth-child(3){-ms-grid-row:1;-ms-grid-column:3}#canvas>:nth-child(4),#structure>:nth-child(4){-ms-grid-row:2;-ms-grid-column:1}#canvas>:nth-child(5),#structure>:nth-child(5){-ms-grid-row:2;-ms-grid-column:2}#canvas>:nth-child(6),#structure>:nth-child(6){-ms-grid-row:2;-ms-grid-column:3}#canvas>:nth-child(7),#structure>:nth-child(7){-ms-grid-row:3;-ms-grid-column:1}#canvas>:nth-child(8),#structure>:nth-child(8){-ms-grid-row:3;-ms-grid-column:2}#canvas>:nth-child(9),#structure>:nth-child(9){-ms-grid-row:3;-ms-grid-column:3}#canvas>:nth-child(10),#structure>:nth-child(10){-ms-grid-row:4;-ms-grid-column:1}#canvas>:nth-child(11),#structure>:nth-child(11){-ms-grid-row:4;-ms-grid-column:2}#canvas>:nth-child(12),#structure>:nth-child(12){-ms-grid-row:4;-ms-grid-column:3}#canvas>:nth-child(13),#structure>:nth-child(13){-ms-grid-row:5;-ms-grid-column:1}#canvas>:nth-child(14),#structure>:nth-child(14){-ms-grid-row:5;-ms-grid-column:2}#canvas>:nth-child(15),#structure>:nth-child(15){-ms-grid-row:5;-ms-grid-column:3}#canvas>:nth-child(16),#structure>:nth-child(16){-ms-grid-row:6;-ms-grid-column:1}#canvas>:nth-child(17),#structure>:nth-child(17){-ms-grid-row:6;-ms-grid-column:2}#canvas>:nth-child(18),#structure>:nth-child(18){-ms-grid-row:6;-ms-grid-column:3}.valuecont1{-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-row:first;grid-row-start:first;-ms-flex-line-pack:center;align-content:center}#structure #range{-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-row:second;grid-row-start:second;-ms-grid-column-align:center;justify-self:center}.valuecont2{-ms-grid-column:rightright;grid-column-start:rightright;-ms-grid-row:first;grid-row-start:first}#structure #range2{-ms-grid-column:rightright;grid-column-start:rightright;-ms-grid-row:second;grid-row-start:second}#structure #range,#structure #range2{-ms-grid-column-span:rightright;grid-column-end:rightright;-ms-grid-row-span:second;grid-row-end:second;width:100%}.rangecont2{margin-left:24px}.rangecont1{margin-right:24px}#value4{text-align:right}#main{font-family:Oswald,sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-ms-flex-line-pack:center;align-content:center;text-align:center;white-space:nowrap;margin:0 48px;z-index:4;background-color:var(--second-color);text-overflow:ellipsis!important;overflow-wrap:break-word;overflow:hidden}.container .linhas p{font-family:oswald;white-space:nowrap!important;display:inline}.linhas{margin:0 -1000%}.elements{display:inline-block;margin:0;font-size:1.5rem;color:var(--main-bg-color);padding-left:.5rem;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.lightup{color:var(--third-color);background-color:rgba(85,78,43,0)!important}footer{text-align:center;margin-top:1rem;margin-bottom:2rem;font-family:lato;color:var(--second-color-shade);font-size:.8rem}#main,#printhis2,#thefooter,#thetitle{-webkit-transition:margin-left .5s!important;transition:margin-left .5s!important}.enableBlur>*{-webkit-filter:blur(1.2px);filter:blur(1.2px)}.disableBlur{-webkit-filter:blur(0);filter:blur(0)}#send,.inputfile-1+label{color:#f1e5e6;background-color:var(--third-color)}#send.has-focus,#send:focus,#send:hover,.inputfile-1+label:hover,.inputfile-1.has-focus+label,.inputfile-1:focus+label{background-color:var(--third-color-shade)}#deletebutton{background-color:var(--main-bg-color-shade)}#deletebutton:hover{color:var(--second-color)}.deletecnt{text-align:center;max-height:48px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.fa-trash{line-height:1}.uploadcont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:48px}form{padding:1rem}.menucontainer{height:100%;width:0;position:fixed;top:0;left:0;overflow-x:hidden;-webkit-transition:.5s;transition:.5s;background-color:var(--main-bg-color-shade);-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-flow:wrap;flex-flow:wrap;z-index:20}.menucontainer,.myoptions{display:-webkit-box;display:-ms-flexbox;display:flex}.myoptions{width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin:1rem 1rem 2rem}p{color:var(--second-color-shade);font-family:lato}.morewords{margin-bottom:2rem}.closebtn,.navnav{background-color:var(--main-bg-color);font-size:36px;width:-webkit-min-content;width:-moz-min-content;width:min-content}.fa,.wordbuttons{font-size:2rem!important}button,li{color:var(--second-color-shade);cursor:pointer;border:1px solid transparent}.fa-bars:focus,.myoptions button:focus{outline-color:rgba(82,112,115,0)!important;outline-style:none}.wordbuttons{background-color:transparent}#printhis:focus{outline-color:rgba(82,112,115,0)!important;outline-style:none}.navnav:focus,.openclose:focus{outline-color:var(--main-bg-color-shade)!important;background-color:var(--main-bg-color-shade)!important}button{cursor:pointer;min-width:48px;min-height:48px}button::-moz-focus-inner,li::-moz-focus-inner{border:0}#list{width:100%;display:block;-webkit-padding-start:0;-moz-padding-start:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-line-pack:start;align-content:flex-start;list-style-type:none}li{background-color:var(--main-bg-color-shade);-ms-flex-preferred-size:100%;flex-basis:100%;color:var(--second-color-shade);border:1px solid var(--second-color-shade);font-family:Lato;line-height:2.9;text-align:center;margin:auto auto .5rem}li.selected,li:active{outline-color:var(--second-color)!important;background-color:var(--second-color-shade)!important;color:var(--main-bg-color)!important}li.selected{font-weight:var(--main-bg-color-shade)!important}#bgcolor,#hightlightcolor,#range3,#textcolor,.myslider{width:100%;font-family:lato;margin-bottom:48px}#bgcolor,#hightlightcolor,#textcolor{border:0 solid transparent;height:46px;text-align:center}input[type=range]{-webkit-appearance:none;width:100%;margin:14px 0 48px}input[type=range]:focus{outline:none}input[type=range]::-webkit-slider-runnable-track{width:100%;height:2px;cursor:pointer;-webkit-box-shadow:0 0 0 transparent,0 0 0 rgba(13,13,13,0);box-shadow:0 0 0 transparent,0 0 0 rgba(13,13,13,0);background:#979695;border-radius:10.3px;border:0 solid #010101}input[type=range]::-webkit-slider-thumb{-webkit-box-shadow:.3px .3px 0 #000,0 0 .3px #0d0d0d;box-shadow:.3px .3px 0 #000,0 0 .3px #0d0d0d;border:0 solid rgba(151,150,149,0);height:30px;width:30px;border-radius:30px;background:#979695;cursor:pointer;-webkit-appearance:none;margin-top:-14px}input[type=range]:focus::-webkit-slider-runnable-track{background:#979695}input[type=range]::-moz-range-track{width:100%;height:2px;cursor:pointer;box-shadow:0 0 0 transparent,0 0 0 rgba(13,13,13,0);background:#979695;border-radius:10.3px;border:0 solid #010101}input[type=range]::-moz-range-thumb{box-shadow:.3px .3px 0 #000,0 0 .3px #0d0d0d;border:0 solid rgba(151,150,149,0);height:30px;width:30px;border-radius:30px;background:#979695;cursor:pointer}input[type=range]::-ms-track{width:100%;height:2px;cursor:pointer;background:transparent;border-color:transparent;color:transparent}input[type=range]::-ms-fill-lower,input[type=range]::-ms-fill-upper{background:#979695;border:0 solid #010101;border-radius:20.6px;box-shadow:0 0 0 transparent,0 0 0 rgba(13,13,13,0)}input[type=range]::-ms-thumb{box-shadow:.3px .3px 0 #000,0 0 .3px #0d0d0d;border:0 solid rgba(151,150,149,0);height:30px;width:30px;border-radius:30px;background:#979695;cursor:pointer;height:2px}input[type=range]:focus::-ms-fill-lower,input[type=range]:focus::-ms-fill-upper{background:#979695}input.white.slider{height:2px}.control{display:block;position:relative;padding-left:40px;margin-bottom:30px;padding-top:4px;cursor:pointer;font-size:18px}.control input{position:absolute;z-index:-1;opacity:0}.control_indicator{position:absolute;top:0;left:0;height:30px;width:30px;background:#979695;border:0 solid #000}.control-radio .control_indicator{border-radius:50%}.control:hover input~.control_indicator,.control input:focus~.control_indicator{background:#d1d5da}.control:hover input:not([disabled]):checked~.control_indicator,.control input:checked:focus~.control_indicator,.control input:checked~.control_indicator{background:var(--second-color)}.control input:disabled~.control_indicator{background:#e6e6e6;opacity:.6;pointer-events:none}.control_indicator:after{-webkit-box-sizing:unset;box-sizing:unset;content:"";position:absolute;display:none}.control input:checked~.control_indicator:after{display:block}.control-radio .control_indicator:after{left:12px;top:12px;height:6px;width:6px;border-radius:50%;background:#fff}.control-radio input:disabled~.control_indicator:after{background:#7b7b7b}.scroller,::-webkit-scrollbar{width:20}::-webkit-scrollbar-track{background:var(--main-bg-color-shade)}::-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb:hover{background:var(--second-color-shade)}.hide{display:none}.brushop{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-flow:wrap;flex-flow:wrap;min-width:100%}.sidenav-overlay{position:fixed;top:0;left:0;right:0;opacity:0;height:120vh;background-color:rgba(0,0,0,.5);z-index:19;display:none}h3{height:48px;font-family:oswald;color:var(--main-bg-color);background-color:var(--second-color-shade);width:100%;border-left:1rem solid var(--second-color-shade);border-right:1rem solid var(--second-color-shade);padding-left:1rem;margin:0 -1rem 48px;line-height:2.5;white-space:nowrap}.myoptions{margin-top:0}.morewords form{padding-top:0}#mySidenav>div>h3{margin-top:0}.brushop label{min-width:100%;margin-bottom:24px;margin-top:24px}label{font-family:lato;color:var(--second-color-shade);font-size:.9rem!important;display:inline-block!important;text-align:center}.control_indicator{display:block;left:36%;margin-bottom:6rem}#output-text{margin-top:1rem;margin-bottom:.5rem;color:var(--second-color-shade)}.select-css{display:block;font-size:16px;font-family:sans-serif;font-weight:700;color:var(--main-bg-color);line-height:1.3;padding:.6em 1.4em .5em .8em;width:100%;max-width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;border:1px solid #aaa;-webkit-box-shadow:0 1px 0 1px rgba(0,0,0,.04);box-shadow:0 1px 0 1px rgba(0,0,0,.04);border-radius:0;-moz-appearance:none;-webkit-appearance:none;appearance:none;background-color:var(--second-color-shade);background-size:.65em auto,100%}.select-css::-ms-expand{display:none}.select-css:hover{border-color:#888}.select-css:focus{border-color:#aaa;-webkit-box-shadow:0 0 1px 3px var(--second-color);box-shadow:0 0 1px 3px var(--second-color);box-shadow:0 0 0 3px -moz-mac-focusring;color:#222;outline:none}.select-css option{font-weight:400}.fileContainer{overflow:hidden;position:relative}.fileContainer [type=file]{cursor:inherit;display:block;font-size:999px;filter:alpha(opacity=0);min-height:100%;min-width:100%;opacity:0;position:absolute;right:0;text-align:right;top:0}.fileContainer{background:var(--second-color-shade);float:left;padding:.5em}.fileContainer:hover{background-color:var(--second-color)}.fileContainer [type=file]{cursor:pointer}.fa-upload{color:var(--main-bg-color);padding:0 48px}.exmapletitle{color:var(--second-color-shade);font-family:Oswald;text-align:left;margin-bottom:48px}.examplegal{max-width:100%;margin:48px 48px 0}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.column{-webkit-box-flex:33.33%;-ms-flex:33.33%;flex:33.33%;max-width:33.33%}.column img{vertical-align:middle;margin-bottom:24px;width:100%}@media screen and (max-width:800px){.column{-webkit-box-flex:100%;-ms-flex:100%;flex:100%;max-width:100%}}@media screen and (max-width:600px){.column{-webkit-box-flex:100%;-ms-flex:100%;flex:100%;max-width:100%}.examplegal{margin:0 12px}.column img{margin-top:12px;-ms-flex-item-align:stretch;align-self:stretch}}@media screen and (max-width:900px){#theheader{margin:0 24px 24px}#main{margin:0 24px}.examplesbtn{padding:0}#firstform{padding:0 24px}#structure{margin:0 24px}#send{margin-left:24px}}@media screen and (max-width:600px){#theheader{margin:0 12px 96px;grid-template-columns:[leftleft] 100% [rightright] 0;grid-template-rows:[first] 95px [second] 95px;padding-top:48px}#text,.thedescription{grid-row-start:first;grid-row-end:first;text-align:center;padding:0 12px;margin-top:0}#send,.examplesbtn{grid-column-start:leftleft;grid-row-start:second;grid-row-end:second;text-align:center;padding-left:0;place-self:center}.examplesbtn{padding:0!important}#examples,.examplesbtn{margin:0}#examples{padding:0 2rem;margin-top:1rem}#firstform{padding:0 12px;grid-template-columns:[leftleft] 100% [rightright] 0;grid-template-rows:[first] 48px [second] 48px;margin-bottom:12px}#send{margin:24px 0 0;padding:0 2rem}#structure{margin:0;grid-template-columns:[leftleft] 100% [rightright] 0;grid-template-rows:[first] 48px [second] 48px [third] 48px [forth] 48px}.rangecont1,.rangecont2,.valuecont1,.valuecont2{grid-column-start:leftleft;grid-column-end:leftleft}.valuecont1{grid-row-start:first;grid-row-end:first;text-align:center}.rangecont1{grid-row-start:second;grid-row-end:second;margin-right:0}.valuecont2{grid-row-start:third;grid-row-end:third}#value4,.valuecont2{text-align:center}.rangecont2{grid-row-start:forth;grid-row-end:forth;margin-left:0}#main{margin:0 12px;padding:0}.headermenu{height:48px;-ms-grid-column:leftleft;grid-column-start:leftleft;-ms-grid-row-align:center;-ms-grid-column-align:stretch;place-self:center stretch}#download,.headermenu{margin-left:12px}}.fixtopfix{width:100%;grid-column-start:leftleft;grid-column-end:rightright;display:grid;grid-template-columns:[leftleft] 50% [rightright] 50%;grid-auto-flow:row}.fixtopfix,.mastercontainer{max-width:1000px;text-align:center;margin:auto}
+/* line 11, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_01base.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 24, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+body {
+  touch-action: manipulation;
+  font-style: normal;
+}
+
+/* line 28, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+h3 {
+  width: 100%;
+  height: 48px;
+  margin-left: -1rem;
+  margin-top: 0;
+  margin-bottom: 48px;
+  margin-right: -1rem;
+  line-height: 2.8;
+  white-space: nowrap;
+}
+
+/* line 39, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.mastercontainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+}
+
+/*
+* scroll bar
+*/
+/* width */
+/* line 54, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+::-webkit-scrollbar, .scroller {
+  width: 20;
+}
+
+/*
+* overlay
+*/
+/* line 63, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 120vh;
+  z-index: 19;
+  display: none;
+}
+
+/* line 73, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 120vh;
+  z-index: 19;
+  display: none;
+}
+
+/*
+* blur situation
+*/
+/* line 88, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.enableBlur > * {
+  -webkit-filter: blur(1.2px);
+  filter: blur(1.2px);
+}
+
+/* line 93, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.disableBlur {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+/*
+* FOOTER
+*/
+/* line 100, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+footer {
+  padding: 48px 0;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: .8rem;
+}
+
+/* line 108, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+#thefooter {
+  margin-top: 48px;
+}
+
+/*
+* BUTTONS
+*/
+/* line 115, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.fa {
+  font-size: 2rem;
+}
+
+/* line 118, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+button {
+  border: 1px solid transparent;
+  cursor: pointer;
+  min-width: 48px;
+  min-height: 47px;
+  border: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+
+/* line 126, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+button:focus {
+  outline: 1px solid rgba(0, 0, 0, 0);
+}
+
+/**
+ * Firefox Fix
+ * Without that the submit button will be too high.
+ */
+/* line 134, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+button::-moz-focus-inner, li::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 137, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+.github, .mail {
+  background-color: rgba(0, 0, 0, 0);
+  color: #f5f5f5;
+}
+
+/* line 141, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_02variables.scss */
+footer form a i {
+  font-size: 2.5rem !important;
+  margin: 4px 1rem;
+}
+
+/* line 2, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_03page.scss */
+#main {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 48px;
+  z-index: 4;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+/* line 24, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_03page.scss */
+.linhas {
+  margin: 0 -1000%;
+}
+
+/* line 28, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_03page.scss */
+.elements {
+  white-space: nowrap !important;
+  display: inline;
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/*
+*
+* fix bar
+*
+*/
+/* line 7, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+#fixtop {
+  position: fixed;
+  height: 48px;
+  width: 100%;
+  max-width: 1000px;
+  top: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: ;
+      grid-template: "menu logo";
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  z-index: 10;
+}
+
+/* line 19, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+.headermenu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  height: 48px;
+  margin-left: 48px;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: stretch;
+  place-self: center stretch;
+  grid-area: menu;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+/* line 27, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+.thetitle {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: logo;
+  height: 48px;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-right: 48px;
+}
+
+/* line 35, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+.thetitle h1 {
+  margin-top: 6px;
+}
+
+/* line 39, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+#download {
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 52, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+  .headermenu {
+    margin-left: 12px;
+  }
+  /* line 55, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+  .thetitle {
+    margin-right: 12px;
+  }
+  /* line 58, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_04fixtop.scss */
+  #download {
+    margin-left: 12px;
+  }
+}
+
+/*
+*
+* HEADER
+*
+*/
+/* line 6, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+#theheader {
+  margin-top: 0;
+  padding: 0 48px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+}
+
+/* line 20, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+.thedescription {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin: 1rem 0;
+  text-align: right;
+}
+
+/* line 27, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+.examplesbtn {
+  height: 48px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center;
+  place-self: center;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  align-self: center;
+}
+
+/* line 37, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+#examples {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 900px) {
+  /* line 44, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  #theheader {
+    padding: 0 24px;
+    padding-bottom: 24px;
+  }
+  /* line 48, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .examplesbtn {
+    padding-left: 24px;
+  }
+  /* line 52, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .thedescription {
+    padding: 0 24px;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 58, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  #theheader {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 48px;
+    grid-template-rows: 1fr 48px;
+    padding-top: 48px;
+  }
+  /* line 68, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .thedescription, #text {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    text-align: center;
+    padding: 0 12px;
+    margin-top: 1em;
+  }
+  /* line 76, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .thedescription p {
+    font-size: 12px;
+  }
+  /* line 79, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .examplesbtn, #send {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    text-align: center;
+    padding-left: 0;
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: center;
+    place-self: center;
+  }
+  /* line 86, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .examplesbtn {
+    padding: 0;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  /* line 92, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  .examplesbtn, #examples {
+    margin: 0;
+  }
+  /* line 96, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_05header.scss */
+  #examples {
+    padding: 0 2rem;
+  }
+}
+
+/*
+*
+* first input
+*
+*/
+/* line 7, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#firstformctn {
+  width: 100%;
+  padding-top: 48px;
+  margin-bottom: 48px;
+}
+
+/* line 13, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#firstform {
+  max-width: 1000px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+  margin: 0 48px;
+}
+
+/* line 21, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#send, #thewords {
+  min-height: 48px;
+  text-align: center;
+}
+
+/* line 26, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#thewords {
+  width: 100%;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+/* line 31, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#send {
+  font-family: "Black Han Sans";
+  font-size: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+/*
+*
+* rows and lines
+*
+*/
+/* line 45, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#structure {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 48px 48px 48px;
+  grid-template-rows: 48px 48px 48px;
+  margin: 0 48px;
+}
+
+/* line 56, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+.valuecont1, .valuecont2 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+/* line 60, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+.rangecont1, .rangecont2 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+/* line 65, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#structure #range, #structure #range2 {
+  width: 100%;
+}
+
+/* line 68, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+.rangecont2 {
+  margin-left: 24px;
+}
+
+/* line 71, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+.rangecont1 {
+  margin-right: 24px;
+}
+
+/* line 74, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#value4 {
+  text-align: right;
+}
+
+/* line 77, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+#value3 {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 87, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #firstformctn {
+    padding-top: 24px;
+  }
+  /* line 90, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #firstform {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 48px 48px;
+    grid-template-rows: 48px 48px;
+    row-gap: 24px;
+    margin: 0 24px;
+  }
+  /* line 98, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #thewords {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  /* line 103, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #send {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: center;
+    place-self: center;
+  }
+  /* line 108, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #send {
+    margin: 0;
+    padding: 0;
+    padding: 0 2rem;
+    margin-left: 0 !important;
+  }
+  /* line 114, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #send {
+    margin-left: 24px;
+  }
+  /* line 121, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #structure {
+    padding: 1rem;
+    margin: 0 24px;
+  }
+  /* line 125, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #firstform {
+    margin: 0 24px;
+  }
+  /* line 128, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #structure {
+    margin: 0;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 48px  48px  48px  48px;
+    grid-template-rows: 48px  48px  48px  48px;
+  }
+  /* line 139, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  .valuecont1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    text-align: center;
+  }
+  /* line 145, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  .rangecont1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    margin-right: 0;
+  }
+  /* line 151, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  .valuecont2 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    text-align: center;
+  }
+  /* line 158, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  #value4 {
+    text-align: center;
+  }
+  /* line 161, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_06firstform.scss */
+  .rangecont2 {
+    -ms-grid-row: 4;
+    grid-row: 4;
+    margin-left: 0;
+  }
+}
+
+/*
+*    SLIIIDERS
+*/
+/* line 4, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 14px 0;
+  margin-bottom: 48px;
+}
+
+/* line 11, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]:focus {
+  outline: none;
+}
+
+/* line 14, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 10.3px;
+}
+
+/* line 21, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-webkit-slider-thumb {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+
+/* line 30, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 10.3px;
+}
+
+/* line 37, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-moz-range-thumb {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* line 44, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+}
+
+/* line 49, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-ms-fill-lower {
+  border-radius: 20.6px;
+}
+
+/* line 53, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-ms-fill-upper {
+  border-radius: 20.6px;
+}
+
+/* line 57, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input[type=range]::-ms-thumb {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 2px;
+}
+
+/* line 65, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+input.white.slider {
+  height: 2px;
+}
+
+/*
+*
+* INPUT RADIO brush options
+*
+*/
+/* line 75, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.brushop {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-flow: wrap;
+  min-width: 100%;
+}
+
+/* line 82, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.brushop label {
+  display: inline-block;
+  font-size: 0.9rem !important;
+  margin-bottom: 2rem;
+}
+
+/* line 88, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+label p {
+  margin-top: 5px;
+}
+
+/* line 91, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control_indicator {
+  display: block;
+  left: 36%;
+  margin-bottom: 6rem;
+}
+
+/* line 97, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  padding-top: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* line 106, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* line 111, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control_indicator {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 119, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control-radio .control_indicator {
+  border-radius: 50%;
+}
+
+/* line 123, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control input:disabled ~ .control_indicator {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* line 127, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control_indicator:after {
+  box-sizing: unset;
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* line 134, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+
+/* line 137, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_07inputs.scss */
+.control-radio .control_indicator:after {
+  left: 12px;
+  top: 12px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+}
+
+/*
+* === MENU ===
+*/
+/* line 4, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.menucontainer {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  z-index: 20;
+}
+
+/* line 18, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.myoptions {
+  width: 100%;
+  margin: 1rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+/* line 27, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.morewords {
+  margin-bottom: 2rem;
+}
+
+/*
+******  more words
+*/
+/* line 37, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#range3, #bgcolor, #textcolor, #hightlightcolor {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+/* line 41, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#hightlightcolor {
+  margin-bottom: 12px;
+}
+
+/* line 44, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#bgcolor, #textcolor, #hightlightcolor {
+  border: 0px solid transparent;
+  height: 46px;
+  text-align: center;
+}
+
+/* line 51, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.hide {
+  display: none;
+}
+
+/* line 55, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.myoptions {
+  margin-top: 0;
+}
+
+/* line 58, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.morewords form {
+  padding-top: 0;
+}
+
+/* line 62, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#mySidenav > div > h3 {
+  margin-top: 0;
+}
+
+/* line 70, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#input-font {
+  margin-bottom: 48px;
+}
+
+/* line 74, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+#output-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 79, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: .6em 1.4em .5em .8em;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-size: .65em auto, 100%;
+}
+
+/* line 93, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.select-css::-ms-expand {
+  display: none;
+}
+
+/* line 97, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.select-css:focus {
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  outline: none;
+}
+
+/* line 101, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.select-css option {
+  font-weight: normal;
+}
+
+/* line 111, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fileContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 116, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fileContainer [type=file] {
+  cursor: inherit;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+/* Example stylistic flourishes */
+/* line 132, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fileContainer {
+  float: left;
+  padding: .5em;
+}
+
+/* line 137, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fileContainer [type=file] {
+  cursor: pointer;
+}
+
+/* line 142, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.deletecnt {
+  text-align: center;
+  max-height: 48px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 150, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.uploadcont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 48px;
+}
+
+/* line 163, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fa-upload {
+  padding: 0 48px;
+}
+
+/* line 167, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_08sidemenu.scss */
+.fa-trash {
+  line-height: 1;
+}
+
+/* line 6, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+body {
+  background-color: #232323;
+}
+
+/* line 9, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+p {
+  color: #f5f5f5;
+  font-family: 'Oswald';
+}
+
+/* line 13, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+h3 {
+  font-family: "Black Han Sans";
+  color: #f5f5f5;
+  background-color: #e9a30c;
+  border-left: 1rem solid #e9a30c;
+  border-right: 1rem solid #e9a30c;
+}
+
+/* line 25, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+::-webkit-scrollbar-track {
+  /* Track */
+  background: #232323;
+}
+
+/* line 30, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+::-webkit-scrollbar-thumb {
+  /* Handle */
+  background: #e9a30c;
+}
+
+/* line 35, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover */
+  background: #af7a09;
+}
+
+/* line 44, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.sidenav-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 51, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.lightup {
+  color: #e9a30c;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* line 59, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#fixtop {
+  background-color: #3a3735;
+}
+
+/* line 63, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.thetitle {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 66, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.thetitle h1 {
+  color: #e9a30c;
+  font-family: "Black Han Sans";
+}
+
+/* line 71, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#opennav {
+  color: #f5f5f5;
+}
+
+/* line 74, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#download {
+  color: #f5f5f5;
+}
+
+/* line 78, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#download, #opennav {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* line 81, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.navnav:focus {
+  outline-color: #3a3735;
+  background-color: #3a3735;
+}
+
+/* line 88, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#theheader {
+  background-color: #3a3735;
+}
+
+/* line 91, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.thedescription {
+  color: #f5f5f5;
+}
+
+/* line 94, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.thedescription p {
+  color: #f5f5f5;
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+}
+
+/* line 99, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#examples {
+  font-family: "Black Han Sans";
+  width: 100%;
+  color: #f5f5f5;
+  background-color: #9b3b23;
+}
+
+/* line 106, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#examples:hover {
+  background-color: #742c1a;
+  color: #f5f5f5;
+}
+
+/* line 114, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#send {
+  color: #f5f5f5;
+  background-color: #e9a30c;
+}
+
+/* line 120, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#send:focus, #send.has-focus, #send:hover {
+  color: #3a3735;
+  background-color: #af7a09;
+}
+
+/* line 125, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#firstformctn {
+  background-color: #9b3b23;
+  font-family: "oswald";
+}
+
+/* line 129, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#thewords {
+  border: 0px solid rgba(0, 0, 0, 0);
+  background-color: #f5f5f5;
+}
+
+/* line 136, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#main {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* line 140, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.elements {
+  font-family: "oswald";
+  color: #3a3735;
+}
+
+/*
+*   SIDEMENU
+*/
+/* line 147, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.menucontainer {
+  background-color: #3a3735;
+}
+
+/*
+******  more words
+*/
+/* line 153, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#range3, #bgcolor, #textcolor, #hightlightcolor {
+  font-family: "oswald";
+}
+
+/*
+*   SLIIIDERS
+*/
+/* line 160, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-webkit-slider-runnable-track {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #f5f5f5;
+  border: 0px solid #010101;
+}
+
+/* line 167, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: #f5f5f5;
+}
+
+/* line 174, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]:focus::-webkit-slider-thumb {
+  background: #ffc107;
+}
+
+/* line 177, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]:hover::-webkit-slider-thumb {
+  background: #d39e00;
+}
+
+/* line 180, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #f5f5f5;
+}
+
+/* line 183, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-moz-range-track {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #f5f5f5;
+  border: 0px solid #010101;
+}
+
+/* line 188, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: #f5f5f5;
+}
+
+/* line 193, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* line 198, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-ms-fill-lower {
+  background: #f5f5f5;
+  border: 0px solid #010101;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+
+/* line 203, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-ms-fill-upper {
+  background: #f5f5f5;
+  border: 0px solid #010101;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+
+/* line 209, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]::-ms-thumb {
+  box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: #f5f5f5;
+}
+
+/* line 214, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]:focus::-ms-fill-lower {
+  background: #ffc107;
+}
+
+/* line 217, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+input[type=range]:focus::-ms-fill-upper {
+  background: #ffc107;
+}
+
+/*
+*
+* INPUT RADIO brush options
+*
+*/
+/* line 226, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.brushop label {
+  font-family: "oswald";
+  color: #f5f5f5;
+}
+
+/* line 231, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control_indicator {
+  background: #f5f5f5;
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+
+/* line 235, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+  background: #ffc107;
+}
+
+/* line 240, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control input:checked ~ .control_indicator {
+  background: #ffc107;
+}
+
+/* line 243, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  background: #ffc107;
+}
+
+/* line 247, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control input:disabled ~ .control_indicator {
+  background: #f5f5f5;
+}
+
+/* line 250, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control-radio .control_indicator:after {
+  background: #f5f5f5;
+}
+
+/* line 253, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.control-radio input:disabled ~ .control_indicator:after {
+  background: #f5f5f5;
+}
+
+/* line 261, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#output-text {
+  color: #f5f5f5;
+}
+
+/* line 265, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.select-css {
+  font-family: "oswald",sans-serif;
+  color: #3a3735;
+  border: 1px solid #a7a29e;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #f5f5f5;
+}
+
+/* line 274, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.select-css:hover {
+  border-color: #a7a29e;
+}
+
+/* line 277, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.select-css:focus {
+  border-color: #a7a29e;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  color: #1f1e1d;
+}
+
+/* line 283, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#output-text {
+  font-family: 'oswald';
+}
+
+/* line 290, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.fileContainer {
+  background: #9b3b23;
+}
+
+/* line 293, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.fileContainer:hover {
+  background-color: #742c1a;
+}
+
+/* line 296, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+.fa-upload {
+  color: #f5f5f5;
+}
+
+/* line 299, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#deletebutton {
+  color: #9b3b23;
+  background-color: #3a3735;
+}
+
+/* line 304, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+#deletebutton:hover {
+  color: #742c1a;
+}
+
+/* line 310, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_09colors.scss */
+footer {
+  background-color: #3a3735;
+  color: #f5f5f5;
+  font-family: "oswald";
+}
+
+/* line 2, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+.containergal, .label {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 10, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+.contcont {
+  margin-top: 0;
+  margin-left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 1vmin;
+}
+
+/* line 20, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+#galleryoverlay2 {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 1rem;
+}
+
+/* line 24, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+.fa-backward, #galleryoverlay2 {
+  display: block;
+  position: fixed;
+  width: 98px;
+  height: 98px;
+  top: 0;
+  left: 0;
+}
+
+/* line 34, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+.fa-backward {
+  color: #e9a30c;
+  margin: 1rem;
+  width: 98px !important;
+  height: 98px !important;
+  font-size: 6rem;
+}
+
+/* line 42, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal {
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80em;
+  height: 80em;
+}
+
+/* line 50, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item'] {
+  width: 33%;
+  height: 33%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background: url() center center/cover no-repeat;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* line 59, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:hover {
+  border: 2px solid rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+/* line 63, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+
+/* line 68, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(2) {
+  top: 0;
+  left: 33%;
+}
+
+/* line 73, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(3) {
+  top: 0;
+  left: 66%;
+}
+
+/* line 78, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(4) {
+  top: 33%;
+  left: 0;
+}
+
+/* line 83, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(5) {
+  top: 33%;
+  left: 33%;
+}
+
+/* line 87, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(6) {
+  top: 33%;
+  left: 66%;
+}
+
+/* line 91, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(7) {
+  top: 66%;
+  left: 0;
+}
+
+/* line 95, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(8) {
+  top: 66%;
+  left: 33%;
+}
+
+/* line 99, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal [class*='item']:nth-of-type(9) {
+  top: 66%;
+  left: 66%;
+}
+
+/* line 103, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal input {
+  display: none;
+}
+
+/* line 106, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_gallery.scss */
+body .containergal input:checked + [class*='item'] {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* line 1, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_animations.scss */
+#main {
+  -webkit-transition: width 1s !important;
+  transition: width 1s !important;
+  -webkit-transition: margin-left 1s !important;
+  transition: margin-left 1s !important;
+}
+
+/*
+******MEDIA QUERIES
+ */
+@media screen and (max-width: 900px) {
+  /* line 8, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  #main {
+    margin: 0 24px;
+  }
+  /* line 12, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  #firstform {
+    margin: 0 24px;
+  }
+  /* line 17, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  #structure {
+    margin: 0 24px;
+  }
+  /* line 20, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  #send {
+    margin-left: 24px;
+  }
+  /* line 23, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  .thedescription {
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 33, Users/apple/Documents/GitHub/01_wordup/src/sass/components/_mediaqueries.scss */
+  #main {
+    margin: 0 12px;
+    padding: 0;
+  }
+}

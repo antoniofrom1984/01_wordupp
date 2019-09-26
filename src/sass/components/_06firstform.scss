@@ -1,0 +1,169 @@
+/*
+*
+* first input
+*
+*/
+
+#firstformctn{
+  width: 100%;
+  padding-top:48px;
+  margin-bottom: 48px;
+}
+
+#firstform{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns:  2fr 1fr;
+  column-gap: 48px;
+  margin: 0 48px;
+}
+
+#send, #thewords{
+  min-height: 48px;
+  text-align: center;
+}
+
+#thewords {
+  width: 100%;
+  grid-column: 1;
+}
+
+#send {
+  font-family: "Black Han Sans";
+  font-size: 1rem;
+  font-size:1rem;
+  font-weight: 900;
+  grid-column: 2;
+}
+
+/*
+*
+* rows and lines
+*
+*/
+
+#structure{
+  display: grid;
+  // grid-template:
+  // "leftleft rightright"48px
+  // "leftleft rightright"48px
+  // "leftleft rightright"48px;
+  grid-template-columns:  1fr 1fr;
+  grid-template-rows: 48px 48px 48px;
+  margin: 0 48px;
+}
+
+.valuecont1,.valuecont2{
+  grid-row: 1;
+}
+
+.rangecont1,.rangecont2{
+  grid-row: 2;
+}
+
+
+#structure #range,#structure #range2{
+  width:100%;
+}
+.rangecont2{
+  margin-left:24px;
+}
+.rangecont1{
+  margin-right:24px;
+}
+#value4{
+  text-align: right;
+}
+#value3{
+  text-align: left;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  ///
+  /// FIRST INPUT
+  ///
+  #firstformctn{
+    padding-top: 24px;
+  }
+  #firstform{
+
+      grid-template-columns: 1fr;
+      grid-template-rows: 48px 48px;
+      row-gap:24px;
+      margin: 0 24px;
+
+  }
+  #thewords{
+    grid-column: 1;
+   grid-row: 1;
+  }
+
+  #send{
+    grid-column: 1;
+     grid-row: 2;
+     place-self: center;
+  }
+  #send{
+    margin:0;
+    padding:0;
+    padding:0 2rem;
+    margin-left: 0!important;
+  }
+  #send{
+    margin-left:24px;
+  }
+
+  //
+  // STRUCTURE
+  //
+  #structure{
+    padding:1rem;
+    margin: 0 24px;
+  }
+  #firstform{
+    margin: 0 24px ;
+  }
+    #structure{
+      margin: 0;
+      // grid-template-columns: [leftleft] 100% [rightright] 0%;
+      grid-template-columns: 1fr;
+      // grid-template-rows: [first] 48px [second] 48px [third] 48px [forth] 48px;
+      grid-template-rows: 48px  48px  48px  48px;
+    }
+  .valuecont1,.rangecont1, .valuecont2,.rangecont2{
+    // grid-column-start: leftleft;
+    // grid-column-end: leftleft;
+  }
+  .valuecont1{
+    grid-row: 1;
+    // grid-row-start: first;
+    // grid-row-end: first;
+    text-align: center;
+  }
+  .rangecont1{
+    grid-row: 2;
+    // grid-row-start: second;
+    // grid-row-end: second;
+    margin-right: 0;
+  }
+  .valuecont2{
+    grid-row: 3;
+    text-align: center;
+    // grid-row-start: third;
+    // grid-row-end: third;
+
+  }
+  #value4{
+    text-align: center;
+  }
+  .rangecont2{
+    grid-row: 4;
+    // grid-row-start: forth;
+    // grid-row-end: forth;
+    margin-left: 0;
+  }
+
+
+}

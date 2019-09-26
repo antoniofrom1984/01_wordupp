@@ -208,7 +208,13 @@ function lightUp() {
     event.preventDefault();
   }, false);
 }
+const highlightBtn = document.getElementById('highlight');
 
+highlightBtn.addEventListener('click', () => {
+  lightUp();
+  checkit();
+  console.log('lovely');
+});
 
 /*
  *
@@ -302,7 +308,13 @@ function randomizeFont() {
     event.preventDefault();
   }, false);
 }
+const randomBtn = document.getElementById('randomsizes');
 
+randomBtn.addEventListener('click', () => {
+  randomizeFont();
+  checkit();
+  console.log('lovely');
+});
 /*
  *
  *   DELETE WORDS
@@ -342,6 +354,14 @@ function deleteWords() {
     event.preventDefault();
   }, false);
 }
+
+const deleteBtn = document.getElementById('deletewords');
+
+deleteBtn.addEventListener('click', () => {
+  deleteWords();
+  checkit();
+  console.log('lovely');
+});
 /*
  *
  *   minimizes the colour brush options
@@ -454,6 +474,12 @@ thewidth.addEventListener('change', () => {
   dispWidth.innerHTML = `Adjust BG Picture: ${widthvalue}`;
 
   canvasSize.style.width = `${widthvalue}%`;
+  if (widthvalue < 100) {
+    canvasSize.style.marginLeft = `${(100 - widthvalue) / 2}%`;
+  } else if (widthvalue > 100) {
+    canvasSize.style.marginLeft = '0%';
+    // canvasSize.style.marginRight = `${-(widthvalue - 100) / 2}%`;
+  }
 }, {
   passive: true,
 });
@@ -463,14 +489,27 @@ thewidth.addEventListener('change', () => {
  *
  */
 
-function changeFont(font) {
-  document.getElementById('output-text').style.fontFamily = font.value;
+
+document.getElementById('input-font').addEventListener('change', () => {
+  const e = document.getElementById('input-font');
+  const strUser = e.options[e.selectedIndex].value;
+  document.getElementById('output-text').style.fontFamily = strUser;
   const mytextfont = document.getElementsByClassName('elements');
   for (let i = 0; i < mytextfont.length; i += 1) {
-    mytextfont[i].style.fontFamily = font.value;
+    mytextfont[i].style.fontFamily = strUser;
   }
-  // document.getElementById('input-font').addEventListener('change',
-  //   changeFont(this));
+  // changeFont(strUser);
+});
+
+
+/*
+ *
+ *   navigate here
+ *
+ */
+function navigateHere() {
+  const elmnt = document.getElementById('navigateHere');
+  elmnt.scrollIntoView({ block: 'start', behavior: 'smooth' });
 }
-// document.getElementById('output-text')
-// document.getElementById('input-font').onchange = changeFont();
+
+document.getElementById('examples').onclick = navigateHere;

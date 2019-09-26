@@ -14,7 +14,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, src/sass/components/_base.scss */
+/* line 11, src/sass/components/_01base.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -27,7 +27,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, src/sass/components/_base.scss */
+/* line 23, src/sass/components/_01base.scss */
 body {
   margin: 0;
 }
@@ -35,7 +35,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, src/sass/components/_base.scss */
+/* line 31, src/sass/components/_01base.scss */
 main {
   display: block;
 }
@@ -44,7 +44,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, src/sass/components/_base.scss */
+/* line 40, src/sass/components/_01base.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -56,7 +56,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, src/sass/components/_base.scss */
+/* line 53, src/sass/components/_01base.scss */
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -71,7 +71,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, src/sass/components/_base.scss */
+/* line 64, src/sass/components/_01base.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -84,7 +84,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, src/sass/components/_base.scss */
+/* line 76, src/sass/components/_01base.scss */
 a {
   background-color: transparent;
 }
@@ -93,7 +93,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, src/sass/components/_base.scss */
+/* line 85, src/sass/components/_01base.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -107,7 +107,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, src/sass/components/_base.scss */
+/* line 95, src/sass/components/_01base.scss */
 b,
 strong {
   font-weight: bolder;
@@ -117,7 +117,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, src/sass/components/_base.scss */
+/* line 105, src/sass/components/_01base.scss */
 code,
 kbd,
 samp {
@@ -130,7 +130,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, src/sass/components/_base.scss */
+/* line 116, src/sass/components/_01base.scss */
 small {
   font-size: 80%;
 }
@@ -139,7 +139,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, src/sass/components/_base.scss */
+/* line 125, src/sass/components/_01base.scss */
 sub,
 sup {
   font-size: 75%;
@@ -148,12 +148,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, src/sass/components/_base.scss */
+/* line 133, src/sass/components/_01base.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, src/sass/components/_base.scss */
+/* line 137, src/sass/components/_01base.scss */
 sup {
   top: -0.5em;
 }
@@ -163,7 +163,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, src/sass/components/_base.scss */
+/* line 148, src/sass/components/_01base.scss */
 img {
   border-style: none;
 }
@@ -174,7 +174,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, src/sass/components/_base.scss */
+/* line 160, src/sass/components/_01base.scss */
 button,
 input,
 optgroup,
@@ -194,7 +194,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, src/sass/components/_base.scss */
+/* line 176, src/sass/components/_01base.scss */
 button,
 input {
   /* 1 */
@@ -205,7 +205,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, src/sass/components/_base.scss */
+/* line 186, src/sass/components/_01base.scss */
 button,
 select {
   /* 1 */
@@ -215,7 +215,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, src/sass/components/_base.scss */
+/* line 195, src/sass/components/_01base.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -226,7 +226,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, src/sass/components/_base.scss */
+/* line 206, src/sass/components/_01base.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -238,7 +238,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, src/sass/components/_base.scss */
+/* line 218, src/sass/components/_01base.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -249,7 +249,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, src/sass/components/_base.scss */
+/* line 229, src/sass/components/_01base.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -260,7 +260,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, src/sass/components/_base.scss */
+/* line 240, src/sass/components/_01base.scss */
 legend {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -280,7 +280,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, src/sass/components/_base.scss */
+/* line 253, src/sass/components/_01base.scss */
 progress {
   vertical-align: baseline;
 }
@@ -288,7 +288,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, src/sass/components/_base.scss */
+/* line 261, src/sass/components/_01base.scss */
 textarea {
   overflow: auto;
 }
@@ -297,7 +297,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, src/sass/components/_base.scss */
+/* line 270, src/sass/components/_01base.scss */
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
@@ -310,7 +310,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, src/sass/components/_base.scss */
+/* line 280, src/sass/components/_01base.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -320,7 +320,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, src/sass/components/_base.scss */
+/* line 290, src/sass/components/_01base.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -331,7 +331,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, src/sass/components/_base.scss */
+/* line 299, src/sass/components/_01base.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -340,7 +340,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, src/sass/components/_base.scss */
+/* line 308, src/sass/components/_01base.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -353,7 +353,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, src/sass/components/_base.scss */
+/* line 320, src/sass/components/_01base.scss */
 details {
   display: block;
 }
@@ -361,7 +361,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, src/sass/components/_base.scss */
+/* line 328, src/sass/components/_01base.scss */
 summary {
   display: list-item;
 }
@@ -371,7 +371,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, src/sass/components/_base.scss */
+/* line 339, src/sass/components/_01base.scss */
 template {
   display: none;
 }
@@ -379,12 +379,12 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, src/sass/components/_base.scss */
+/* line 347, src/sass/components/_01base.scss */
 [hidden] {
   display: none;
 }
 
-/* line 1, src/sass/components/_variables.scss */
+/* line 1, src/sass/components/_02variables.scss */
 :root {
   --main-bg-color: #292b31;
   --main-bg-color-shade: #1e2126;
@@ -394,16 +394,27 @@ template {
   --third-color-shade: #722040;
 }
 
-/* line 3, src/sass/components/_page.scss */
+/* line 1, src/sass/components/_03page.scss */
+.mastercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 7, src/sass/components/_03page.scss */
 #main {
-  /* background-size: cover!important; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* background-size: 100%!important; */
   background-position: 50% 50%;
+  max-width: 100%;
 }
 
-/* line 12, src/sass/components/_page.scss */
+/* line 18, src/sass/components/_03page.scss */
 body {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -413,68 +424,10 @@ body {
 
 /*
 *
-* fix bar
-*
-*/
-/* line 23, src/sass/components/_page.scss */
-#fixtop {
-  background-color: var(--main-bg-color-shade);
-  position: fixed;
-  /* height: 96px; */
-  height: 48px;
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: [leftleft] 50% [rightright] 50%;
-  grid-template-columns: [leftleft] 50% [rightright] 50%;
-  justify-items: center;
-  top: 0;
-}
-
-/* line 36, src/sass/components/_page.scss */
-.thetitle {
-  font-family: 'Oswald', sans-serif;
-  height: 48px;
-  -ms-grid-column: rightright;
-  grid-column-start: rightright;
-  -ms-grid-column-align: end;
-  justify-self: end;
-  margin-right: 48px;
-}
-
-/* line 46, src/sass/components/_page.scss */
-.thetitle h1 {
-  margin-top: 0px;
-  color: var(--second-color-shade);
-}
-
-/* line 51, src/sass/components/_page.scss */
-.headermenu {
-  height: 48px;
-  -ms-grid-column: leftleft;
-  grid-column-start: leftleft;
-  margin-left: 48px;
-  -ms-grid-row-align: center;
-  -ms-grid-column-align: stretch;
-  place-self: center stretch;
-}
-
-/* line 60, src/sass/components/_page.scss */
-#download {
-  margin-left: 48px;
-}
-
-/* line 64, src/sass/components/_page.scss */
-#download, #opennav {
-  background-color: var(--main-bg-color-shade);
-}
-
-/*
-*
 * HEADER
 *
 */
-/* line 73, src/sass/components/_page.scss */
+/* line 31, src/sass/components/_03page.scss */
 #theheader {
   background-color: #121417;
   margin-top: 0;
@@ -488,7 +441,7 @@ body {
   grid-template-columns: [leftleft] 60% [rightright] 40%;
 }
 
-/* line 89, src/sass/components/_page.scss */
+/* line 47, src/sass/components/_03page.scss */
 .thedescription {
   -ms-grid-column: leftleft;
   grid-column-start: leftleft;
@@ -496,9 +449,10 @@ body {
   grid-column-end: rightright;
   padding: 0 48px;
   margin: 1rem 0;
+  text-align: left;
 }
 
-/* line 97, src/sass/components/_page.scss */
+/* line 56, src/sass/components/_03page.scss */
 .examplesbtn {
   height: 48px !important;
   -ms-grid-column: rightright;
@@ -511,7 +465,7 @@ body {
   place-self: center end;
 }
 
-/* line 109, src/sass/components/_page.scss */
+/* line 68, src/sass/components/_03page.scss */
 #examples {
   font-family: "lato";
   color: var(--main-bg-color-shade) !important;
@@ -527,13 +481,13 @@ body {
 * first input
 *
 */
-/* line 126, src/sass/components/_page.scss */
+/* line 85, src/sass/components/_03page.scss */
 #firstformctn {
   width: 100%;
   font-family: "Lato";
 }
 
-/* line 130, src/sass/components/_page.scss */
+/* line 89, src/sass/components/_03page.scss */
 #firstform {
   /* min-width: 100%; */
   display: -ms-grid;
@@ -544,14 +498,14 @@ body {
   padding: 0 48px;
 }
 
-/* line 139, src/sass/components/_page.scss */
+/* line 98, src/sass/components/_03page.scss */
 #send, #thewords {
   /* margin-bottom: 48px; */
   min-height: 48px;
   text-align: center;
 }
 
-/* line 145, src/sass/components/_page.scss */
+/* line 104, src/sass/components/_03page.scss */
 #thewords {
   width: 100%;
   -ms-grid-column: leftleft;
@@ -562,12 +516,12 @@ body {
   background-color: var(--second-color);
 }
 
-/* line 154, src/sass/components/_page.scss */
+/* line 113, src/sass/components/_03page.scss */
 #thewords:focus {
   border: black;
 }
 
-/* line 157, src/sass/components/_page.scss */
+/* line 116, src/sass/components/_03page.scss */
 #send {
   font-size: .7rem;
   margin-left: 48px;
@@ -584,7 +538,7 @@ background-color: var(--second-color)!important; */
 * the structure menu
 *
 */
-/* line 173, src/sass/components/_page.scss */
+/* line 132, src/sass/components/_03page.scss */
 #structure, #canvas {
   display: -ms-grid;
   display: grid;
@@ -597,115 +551,115 @@ background-color: var(--second-color)!important; */
   margin: 0 48px;
 }
 
-/* line 184, src/sass/components/_page.scss */
+/* line 143, src/sass/components/_03page.scss */
 #structure > *:nth-child(1), #canvas > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
 
-/* line 188, src/sass/components/_page.scss */
+/* line 147, src/sass/components/_03page.scss */
 #structure > *:nth-child(2), #canvas > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
 }
 
-/* line 192, src/sass/components/_page.scss */
+/* line 151, src/sass/components/_03page.scss */
 #structure > *:nth-child(3), #canvas > *:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
 
-/* line 196, src/sass/components/_page.scss */
+/* line 155, src/sass/components/_03page.scss */
 #structure > *:nth-child(4), #canvas > *:nth-child(4) {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
 }
 
-/* line 200, src/sass/components/_page.scss */
+/* line 159, src/sass/components/_03page.scss */
 #structure > *:nth-child(5), #canvas > *:nth-child(5) {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
 }
 
-/* line 204, src/sass/components/_page.scss */
+/* line 163, src/sass/components/_03page.scss */
 #structure > *:nth-child(6), #canvas > *:nth-child(6) {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
 }
 
-/* line 208, src/sass/components/_page.scss */
+/* line 167, src/sass/components/_03page.scss */
 #structure > *:nth-child(7), #canvas > *:nth-child(7) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
 
-/* line 212, src/sass/components/_page.scss */
+/* line 171, src/sass/components/_03page.scss */
 #structure > *:nth-child(8), #canvas > *:nth-child(8) {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
 }
 
-/* line 216, src/sass/components/_page.scss */
+/* line 175, src/sass/components/_03page.scss */
 #structure > *:nth-child(9), #canvas > *:nth-child(9) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
 
-/* line 220, src/sass/components/_page.scss */
+/* line 179, src/sass/components/_03page.scss */
 #structure > *:nth-child(10), #canvas > *:nth-child(10) {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
 }
 
-/* line 224, src/sass/components/_page.scss */
+/* line 183, src/sass/components/_03page.scss */
 #structure > *:nth-child(11), #canvas > *:nth-child(11) {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
 }
 
-/* line 228, src/sass/components/_page.scss */
+/* line 187, src/sass/components/_03page.scss */
 #structure > *:nth-child(12), #canvas > *:nth-child(12) {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
 }
 
-/* line 232, src/sass/components/_page.scss */
+/* line 191, src/sass/components/_03page.scss */
 #structure > *:nth-child(13), #canvas > *:nth-child(13) {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
 }
 
-/* line 236, src/sass/components/_page.scss */
+/* line 195, src/sass/components/_03page.scss */
 #structure > *:nth-child(14), #canvas > *:nth-child(14) {
   -ms-grid-row: 5;
   -ms-grid-column: 2;
 }
 
-/* line 240, src/sass/components/_page.scss */
+/* line 199, src/sass/components/_03page.scss */
 #structure > *:nth-child(15), #canvas > *:nth-child(15) {
   -ms-grid-row: 5;
   -ms-grid-column: 3;
 }
 
-/* line 244, src/sass/components/_page.scss */
+/* line 203, src/sass/components/_03page.scss */
 #structure > *:nth-child(16), #canvas > *:nth-child(16) {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
 }
 
-/* line 248, src/sass/components/_page.scss */
+/* line 207, src/sass/components/_03page.scss */
 #structure > *:nth-child(17), #canvas > *:nth-child(17) {
   -ms-grid-row: 6;
   -ms-grid-column: 2;
 }
 
-/* line 252, src/sass/components/_page.scss */
+/* line 211, src/sass/components/_03page.scss */
 #structure > *:nth-child(18), #canvas > *:nth-child(18) {
   -ms-grid-row: 6;
   -ms-grid-column: 3;
 }
 
-/* line 256, src/sass/components/_page.scss */
+/* line 215, src/sass/components/_03page.scss */
 .valuecont1 {
   -ms-grid-column: leftleft;
   grid-column-start: leftleft;
@@ -715,7 +669,7 @@ background-color: var(--second-color)!important; */
   align-content: center;
 }
 
-/* line 265, src/sass/components/_page.scss */
+/* line 224, src/sass/components/_03page.scss */
 #structure #range {
   -ms-grid-column: leftleft;
   grid-column-start: leftleft;
@@ -726,7 +680,7 @@ background-color: var(--second-color)!important; */
   /* margin:4rem!important; */
 }
 
-/* line 275, src/sass/components/_page.scss */
+/* line 234, src/sass/components/_03page.scss */
 .valuecont2 {
   -ms-grid-column: rightright;
   grid-column-start: rightright;
@@ -734,7 +688,7 @@ background-color: var(--second-color)!important; */
   grid-row-start: first;
 }
 
-/* line 282, src/sass/components/_page.scss */
+/* line 241, src/sass/components/_03page.scss */
 #structure #range2 {
   -ms-grid-column: rightright;
   grid-column-start: rightright;
@@ -742,7 +696,7 @@ background-color: var(--second-color)!important; */
   grid-row-start: second;
 }
 
-/* line 289, src/sass/components/_page.scss */
+/* line 248, src/sass/components/_03page.scss */
 #structure #range, #structure #range2 {
   -ms-grid-column-span: rightright;
   grid-column-end: rightright;
@@ -755,17 +709,17 @@ background-color: var(--second-color)!important; */
 padding:0 2rem; */
 }
 
-/* line 302, src/sass/components/_page.scss */
+/* line 261, src/sass/components/_03page.scss */
 .rangecont2 {
   margin-left: 24px;
 }
 
-/* line 305, src/sass/components/_page.scss */
+/* line 264, src/sass/components/_03page.scss */
 .rangecont1 {
   margin-right: 24px;
 }
 
-/* line 308, src/sass/components/_page.scss */
+/* line 267, src/sass/components/_03page.scss */
 #value4 {
   text-align: right;
 }
@@ -775,7 +729,7 @@ padding:0 2rem; */
 * THE WALL
 *
 */
-/* line 317, src/sass/components/_page.scss */
+/* line 276, src/sass/components/_03page.scss */
 #main {
   font-family: 'Oswald', sans-serif;
   display: -webkit-box;
@@ -803,19 +757,19 @@ padding:0 2rem; */
   overflow: hidden;
 }
 
-/* line 345, src/sass/components/_page.scss */
+/* line 304, src/sass/components/_03page.scss */
 .container .linhas p {
   font-family: "oswald";
   white-space: nowrap !important;
   display: inline;
 }
 
-/* line 352, src/sass/components/_page.scss */
+/* line 311, src/sass/components/_03page.scss */
 .linhas {
   margin: 0 -1000%;
 }
 
-/* line 356, src/sass/components/_page.scss */
+/* line 315, src/sass/components/_03page.scss */
 .elements {
   display: inline-block;
   margin: 0;
@@ -836,7 +790,7 @@ padding:0 2rem; */
                                   supported by Chrome and Opera */
 }
 
-/* line 371, src/sass/components/_page.scss */
+/* line 330, src/sass/components/_03page.scss */
 .lightup {
   color: var(--third-color);
   background-color: rgba(85, 78, 43, 0) !important;
@@ -847,7 +801,7 @@ padding:0 2rem; */
 * FOOTER
 *
 */
-/* line 380, src/sass/components/_page.scss */
+/* line 339, src/sass/components/_03page.scss */
 footer {
   text-align: center;
   margin-top: 1rem;
@@ -862,19 +816,19 @@ footer {
 * TRANSITIONS AND MOUSE THINGS
 *
 */
-/* line 394, src/sass/components/_page.scss */
+/* line 353, src/sass/components/_03page.scss */
 #thefooter, #thetitle, #main, #printhis2 {
   -webkit-transition: margin-left 0.5s !important;
   transition: margin-left 0.5s !important;
 }
 
-/* line 400, src/sass/components/_page.scss */
+/* line 359, src/sass/components/_03page.scss */
 .enableBlur > * {
   -webkit-filter: blur(1.2px);
   filter: blur(1.2px);
 }
 
-/* line 405, src/sass/components/_page.scss */
+/* line 364, src/sass/components/_03page.scss */
 .disableBlur {
   -webkit-filter: blur(0);
   filter: blur(0);
@@ -886,13 +840,13 @@ footer {
 *
 */
 /* style 1 */
-/* line 419, src/sass/components/_page.scss */
+/* line 378, src/sass/components/_03page.scss */
 .inputfile-1 + label, #send {
   color: #f1e5e6;
   background-color: var(--third-color);
 }
 
-/* line 427, src/sass/components/_page.scss */
+/* line 386, src/sass/components/_03page.scss */
 .inputfile-1:focus + label,
 .inputfile-1.has-focus + label,
 .inputfile-1 + label:hover,
@@ -902,17 +856,17 @@ footer {
 
 /* .fa-download:focus, .fa-download.has-focus, .fa-download:hover,
 .fa-bars:focus,.fa-bars.has-focus,.fa-bars:hover, */
-/* line 451, src/sass/components/_page.scss */
+/* line 410, src/sass/components/_03page.scss */
 #deletebutton {
   background-color: var(--main-bg-color-shade);
 }
 
-/* line 457, src/sass/components/_page.scss */
+/* line 416, src/sass/components/_03page.scss */
 #deletebutton:hover {
   color: var(--second-color);
 }
 
-/* line 460, src/sass/components/_page.scss */
+/* line 419, src/sass/components/_03page.scss */
 .deletecnt {
   /* border-style: inset; */
   text-align: center;
@@ -922,12 +876,12 @@ footer {
   -webkit-box-sizing: border-box;
 }
 
-/* line 482, src/sass/components/_page.scss */
+/* line 441, src/sass/components/_03page.scss */
 .fa-trash {
   line-height: 1;
 }
 
-/* line 485, src/sass/components/_page.scss */
+/* line 444, src/sass/components/_03page.scss */
 .uploadcont {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -941,9 +895,66 @@ footer {
   margin-bottom: 48px;
 }
 
-/* line 497, src/sass/components/_page.scss */
+/* line 456, src/sass/components/_03page.scss */
 form {
   padding: 1rem;
+}
+
+/*
+*
+* fix bar
+*
+*/
+/* line 7, src/sass/components/_04fixtop.scss */
+#fixtop {
+  background-color: pink;
+  position: fixed;
+  /* height: 96px; */
+  height: 48px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: [leftleft] 50% [rightright] 50%;
+  justify-items: center;
+  top: 0;
+}
+
+/* line 20, src/sass/components/_04fixtop.scss */
+.thetitle {
+  font-family: 'Oswald', sans-serif;
+  height: 48px;
+  -ms-grid-column: rightright;
+  grid-column-start: rightright;
+  -ms-grid-column-align: end;
+  justify-self: end;
+  margin-right: 48px;
+}
+
+/* line 30, src/sass/components/_04fixtop.scss */
+.thetitle h1 {
+  margin-top: 6px;
+  color: #a5a9b4;
+}
+
+/* line 35, src/sass/components/_04fixtop.scss */
+.headermenu {
+  height: 48px;
+  -ms-grid-column: leftleft;
+  grid-column-start: leftleft;
+  margin-left: 48px;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: stretch;
+  place-self: center stretch;
+}
+
+/* line 44, src/sass/components/_04fixtop.scss */
+#download {
+  margin-left: 48px;
+}
+
+/* line 48, src/sass/components/_04fixtop.scss */
+#download, #opennav {
+  background-color: #1d1f23;
 }
 
 /*
@@ -1663,6 +1674,14 @@ label {
     -ms-flex-item-align: stretch;
         align-self: stretch;
   }
+}
+
+/* line 1, src/sass/components/_animations.scss */
+#main {
+  -webkit-transition: width 1s !important;
+  transition: width 1s !important;
+  -webkit-transition: margin-left 1s !important;
+  transition: margin-left 1s !important;
 }
 
 /*

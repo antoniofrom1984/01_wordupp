@@ -1,0 +1,144 @@
+$bgdark: #232323;
+$bgmed: #2b2928;
+$bglight: #3a3735;
+
+$redlight: #af624f;
+$red: #9b3b23;
+$reddark: #742c1a;
+
+$yellowlight: #edb53d;
+$yellow: #e9a30c;
+$yellowdark: #af7a09;
+
+$white: #f5f5f5;
+//$white: #329da0;
+
+$bluelight: #329da0;
+$blue: #267678;
+$bluedark: #194f50;
+
+$HighCo: #ffc107;
+$nocolor: rgba(0, 0, 0, 0);
+$halftrans: rgba(0,0,0,.5);
+
+body{
+  touch-action: manipulation;
+  font-style: normal;
+}
+h3{
+  width: 100%;
+  height:48px;
+  margin-left: -1rem;
+  margin-top: 0;
+   margin-bottom: 48px;
+  // padding-left: 1rem;
+  margin-right: -1rem;
+  line-height: 2.8;
+  white-space: nowrap;
+}
+.mastercontainer{
+  display: flex;
+  flex-direction: column;
+  // max-width: 1000px;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+}
+
+
+/*
+* scroll bar
+*/
+
+/* width */
+::-webkit-scrollbar,.scroller {
+  width: 20;
+}
+
+
+/*
+* overlay
+*/
+
+.sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 120vh;
+    z-index: 19;
+    display: none;
+}
+.gallery-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 120vh;
+    z-index: 19;
+    display: none;
+}
+
+/*
+* blur situation
+*/
+
+.enableBlur>* {
+  -webkit-filter: blur(1.2px);
+          filter: blur(1.2px);
+}
+
+.disableBlur {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+/*
+* FOOTER
+*/
+footer{
+
+  padding:  48px 0;
+  text-align: center;
+  margin-top: 1rem;
+  // margin-bottom: 2rem;
+  font-size: .8rem;
+}
+#thefooter{
+  margin-top:48px;
+}
+/*
+* BUTTONS
+*/
+
+.fa{
+  font-size: 2rem;
+}
+button{
+  border: 1px solid transparent;
+  cursor:pointer;
+  min-width: 48px;
+  min-height: 47px;
+  border: $nocolor;
+  padding:0;
+}
+button:focus{
+  outline: 1px solid $nocolor;
+}
+
+/**
+ * Firefox Fix
+ * Without that the submit button will be too high.
+ */
+button::-moz-focus-inner, li::-moz-focus-inner {
+    border: 0;
+}
+.github,.mail{
+  background-color: $nocolor;
+  color:$white;
+}
+footer form a i{
+  font-size: 2.5rem!important;
+      margin: 4px 1rem;
+}

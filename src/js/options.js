@@ -6,7 +6,7 @@
  */
 const wordArray = ['make', 'your', 'wall'];
 const sendwords = document.getElementById('send');
-
+let wordArray2;
 function addTo() {
   wordArray.length = 0;
   const wordInput = document.getElementById('thewords').value;
@@ -94,7 +94,7 @@ function makeRows() {
 const bgColorEle = document.getElementById('bgcolor');
 const textColorEle = document.getElementById('textcolor');
 let bgColor = 'd1d5da';
-let textColor = 'FFCC00';
+let textColor = '232323';
 
 bgColorEle.addEventListener('change', () => {
   bgColor = bgColorEle.value;
@@ -200,7 +200,13 @@ function lightUp() {
     event.preventDefault();
   }, false);
 }
+const highlightBtn = document.getElementById('highlight');
 
+highlightBtn.addEventListener('click', () => {
+  lightUp();
+  checkit();
+  console.log('lovely');
+});
 
 /*
  *
@@ -294,7 +300,12 @@ function randomizeFont() {
     event.preventDefault();
   }, false);
 }
+const randomBtn = document.getElementById('randomsizes');
 
+randomBtn.addEventListener('click', () => {
+  randomizeFont();
+  checkit();
+});
 /*
  *
  *   DELETE WORDS
@@ -321,7 +332,7 @@ function deleteWords() {
 
   document.addEventListener('mousemove', (event) => {
     if (event.target.classList.contains('elements') && mouseDown === 1) {
-      event.target.style.color = `#${bgColor}`;
+      event.target.style.color = 'rgba(0, 0, 0, 0)';
     }
   // event.preventDefault();
   }, false);
@@ -329,11 +340,18 @@ function deleteWords() {
 
   document.addEventListener('touchmove', (event) => {
     if (event.target.classList.contains('elements') && touchStart === 1) {
-      event.target.style.color = `#${bgColor}`;
+      event.target.style.color = 'rgba(0, 0, 0, 0)';
     }
     event.preventDefault();
   }, false);
 }
+
+const deleteBtn = document.getElementById('deletewords');
+
+deleteBtn.addEventListener('click', () => {
+  deleteWords();
+  checkit();
+});
 /*
  *
  *   minimizes the colour brush options
@@ -387,6 +405,7 @@ makeWall(); // make wall when loading page
  *   BACKGROUND PICTURE
  *
  */
+
 document.getElementById('getval').addEventListener('change', readURL, true);
 function readURL() {
   const file = document.getElementById('getval').files[0];
@@ -411,26 +430,7 @@ deleteButton.onclick = function deleteIt() {
  *   CANVAS
  *
  */
-// var inputs = document.querySelectorAll( '.inputfile' );
-// Array.prototype.forEach.call( inputs, function( input )
-// {
-// 	var label	 = input.nextElementSibling,
-// 		labelVal = label.innerHTML;
-//
-// 	input.addEventListener( 'change', function( e )
-// 	{
-// 		var fileName = '';
-// 		if( this.files && this.files.length > 1 )
-// 			fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
-// 		else
-// 			fileName = e.target.value.split( '\' ).pop();
-//
-// 		if( fileName )
-// 			label.querySelector( 'span' ).innerHTML = fileName;
-// 		else
-// 			label.innerHTML = labelVal;
-// 	});
-// });
+
 
 const canvasSize = document.getElementById('main');
 const thewidth = document.getElementById('rangewidth');
@@ -446,23 +446,29 @@ thewidth.addEventListener('change', () => {
   dispWidth.innerHTML = `Adjust BG Picture: ${widthvalue}`;
 
   canvasSize.style.width = `${widthvalue}%`;
+  // if (widthvalue < 100) {
+  //   canvasSize.style.marginLeft = `${(100 - widthvalue) / 2}%`;
+  // } else if (widthvalue > 100) {
+  //   canvasSize.style.marginLeft = '0%';
+  //   // canvasSize.style.marginRight = `${-(widthvalue - 100) / 2}%`;
+  // }
 }, {
   passive: true,
 });
+
 /*
  *
  *   CHANGE THE FONT
  *
  */
 
-function changeFont(font) {
-  document.getElementById('output-text').style.fontFamily = font.value;
+
+document.getElementById('input-font').addEventListener('change', () => {
+  const e = document.getElementById('input-font');
+  const strUser = e.options[e.selectedIndex].value;
+  document.getElementById('output-text').style.fontFamily = strUser;
   const mytextfont = document.getElementsByClassName('elements');
   for (let i = 0; i < mytextfont.length; i += 1) {
-    mytextfont[i].style.fontFamily = font.value;
+    mytextfont[i].style.fontFamily = strUser;
   }
-  // document.getElementById('input-font').addEventListener('change',
-  //   changeFont(this));
-}
-// document.getElementById('output-text')
-// document.getElementById('input-font').onchange = changeFont();
+});

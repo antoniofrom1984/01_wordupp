@@ -1,0 +1,314 @@
+//
+//general
+//
+
+
+body{
+  background-color: $bgdark;
+}
+p{
+  color:$white;
+  font-family: 'Oswald';
+}
+h3{
+  font-family: "Black Han Sans";
+  color:$white;
+  background-color: $yellow;
+  border-left: 1rem solid $yellow;
+  border-right: 1rem solid $yellow;
+}
+//
+//scroll bar
+//
+
+
+::-webkit-scrollbar-track{
+  /* Track */
+  background: $bgdark;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Handle */
+  background: $yellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover */
+  background: $yellowdark;
+}
+
+//
+//overlay
+//
+
+.sidenav-overlay{
+  background-color: $halftrans;
+}
+
+//
+//lightup
+//
+.lightup{
+  color: $yellow;
+  background-color: $nocolor!important;
+}
+
+//
+// FIXTOP
+//
+#fixtop{
+  background-color: $bglight;
+
+}
+.thetitle{
+  font-family: 'Oswald', sans-serif;
+}
+.thetitle h1{
+  color: $yellow;
+  // color: $white;
+  font-family: "Black Han Sans";
+}
+#opennav{
+  color:$white;
+}
+#download{
+  color:$white;
+}
+
+#download, #opennav{
+  background-color: $nocolor;
+}
+.navnav:focus{
+  outline-color:$bglight;
+  background-color: $bglight;
+}
+//
+//HEADER
+//
+#theheader{
+    background-color: $bglight;
+}
+.thedescription{
+  color:$white;
+}
+.thedescription p{
+  color:$white;
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+}
+#examples{
+  font-family: "Black Han Sans";
+  width:100%;
+  color: $white;
+  background-color: $red;
+}
+
+#examples:hover{
+  background-color: $reddark;
+  color:$white;
+}
+//
+//FIRST FORM
+//
+
+#send {
+    color: $white;
+    background-color: $yellow;
+}
+
+
+#send:focus, #send.has-focus,#send:hover{
+    color: $bglight;
+    background-color: $yellowdark;
+}
+
+#firstformctn{
+  background-color: $red;
+  font-family: "oswald";
+}
+#thewords{
+  border:0px solid $nocolor;
+  background-color: $white;
+}
+//
+//MAIN
+//
+#main{
+    font-family: 'Oswald', sans-serif;
+    background-color: $white;
+}
+.elements{
+  font-family: "oswald";
+  color: $bglight;
+}
+/*
+*   SIDEMENU
+*/
+.menucontainer {
+  background-color:$bglight;
+}
+/*
+******  more words
+*/
+#range3,#bgcolor,#textcolor,#hightlightcolor{
+  font-family: "oswald";
+}
+
+/*
+*   SLIIIDERS
+*/
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: $white;
+  border: 0px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+          box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: $white;
+}
+
+input[type=range]:focus::-webkit-slider-thumb {
+   background: $HighCo;
+}
+input[type=range]:hover::-webkit-slider-thumb {
+   background: darken($HighCo, 10%);
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: $white;
+}
+input[type=range]::-moz-range-track {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: $white;
+  border: 0px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: $white;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: $white;
+  border: 0px solid #010101;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: $white;
+  border: 0px solid #010101;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+
+input[type=range]::-ms-thumb {
+  box-shadow: 0.3px 0.3px 0px #000000, 0px 0px 0.3px #0d0d0d;
+  border: 0px solid rgba(151, 150, 149, 0);
+  background: $white;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: $HighCo;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: $HighCo;
+}
+/*
+*
+* INPUT RADIO brush options
+*
+*/
+
+.brushop label{
+  font-family: "oswald";
+  color: $white;
+}
+
+.control_indicator {
+    background: $white;
+    border: 0px solid $nocolor;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: $HighCo;
+}
+
+.control input:checked ~ .control_indicator {
+    background: $HighCo;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: $HighCo;
+}
+.control input:disabled ~ .control_indicator {
+    background: $white;
+}
+.control-radio .control_indicator:after {
+    background: $white;
+}
+.control-radio input:disabled ~ .control_indicator:after {
+    background: $white;
+}
+
+//
+//fonts options
+//
+
+#output-text{
+  color:$white;
+}
+
+.select-css {
+  font-family: "oswald",sans-serif;
+  color: $bglight;
+  border: 1px solid lighten($bglight, 42%);
+  -webkit-box-shadow: 0 1px 0 1px $halftrans;
+          box-shadow: 0 1px 0 1px $halftrans;
+  background-color: $white;
+}
+
+.select-css:hover {
+  border-color: lighten($bglight, 42%);
+}
+.select-css:focus {
+  border-color: lighten($bglight, 42%);
+  -webkit-box-shadow: 0 0 1px 1px $halftrans;
+          box-shadow: 0 0 1px 1px $halftrans;
+  color: darken($bglight,10%);
+}
+#output-text{
+  font-family: 'oswald';
+}
+//
+// add background
+//
+
+.fileContainer {
+    background: $red;
+}
+.fileContainer:hover{
+  background-color: $reddark;
+}
+.fa-upload{
+  color:$white;
+}
+#deletebutton{
+  color: $red;
+  background-color: $bglight;
+}
+
+#deletebutton:hover{
+  color: $reddark;
+}
+//
+//footer
+//
+footer{
+  background-color: $bglight;
+  color:$white;
+  font-family: "oswald";
+}

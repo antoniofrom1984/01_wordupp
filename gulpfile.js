@@ -233,7 +233,6 @@ var buildStyles = function (done) {
 		// }))
 		.pipe(header(banner.min, {package: package}))
 		.pipe(dest(paths.styles.output));
-
 };
 
 // Optimize SVG files
@@ -269,7 +268,9 @@ var startServer = function (done) {
 
 	// Initialize BrowserSync
 	browserSync.init({
+		injectChanges: true,
 		server: {
+			proxy : 'localhost',
 			baseDir: paths.reload
 		}
 	});
