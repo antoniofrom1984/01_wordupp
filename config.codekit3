@@ -85,19 +85,11 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/docs/icon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/icon.ico",
-		"oF": 0
-		},
-	"/docs/icon.png": {
+	"/docs/images/myWordUp01.png": {
 		"ft": 32768,
-		"iS": 5699,
+		"iS": 57273,
 		"oA": 0,
-		"oAP": "/docs/icon.png",
+		"oAP": "/docs/images/myWordUp01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -451,17 +443,17 @@
 		"oAP": "/docs/CNAME",
 		"oF": 3
 		},
-	"/src/copy/icon.ico": {
+	"/src/copy/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/src/copy/icon.ico",
+		"oAP": "/src/copy/favicon.ico",
 		"oF": 0
 		},
 	"/src/copy/icon.png": {
 		"ft": 32768,
-		"iS": 5699,
+		"iS": 9380,
 		"oA": 0,
 		"oAP": "/src/copy/icon.png",
 		"oF": 0,
@@ -485,10 +477,10 @@
 		"ft": 32768,
 		"iS": 558265,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp02.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp02.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -496,8 +488,8 @@
 		"ft": 32768,
 		"iS": 618685,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp03.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp03.png",
+		"oF": 3,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -507,10 +499,10 @@
 		"ft": 32768,
 		"iS": 347020,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp04.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp04.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -518,8 +510,8 @@
 		"ft": 32768,
 		"iS": 55731,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp05.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp05.png",
+		"oF": 3,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -529,10 +521,10 @@
 		"ft": 32768,
 		"iS": 335873,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp06.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp06.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -540,10 +532,10 @@
 		"ft": 32768,
 		"iS": 113515,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp07.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp07.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -551,10 +543,10 @@
 		"ft": 32768,
 		"iS": 503647,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp08.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp08.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -562,10 +554,10 @@
 		"ft": 32768,
 		"iS": 338629,
 		"oA": 0,
-		"oAP": "/src/copy/images/mywordupp09.png",
-		"oF": 0,
+		"oAP": "/docs/images/mywordupp09.png",
+		"oF": 3,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -650,6 +642,110 @@
 		"oF": 3,
 		"sC": 3,
 		"tS": 0
+		},
+	"/src/sass/.sass-cache/4b465e9dbe458ad09f0961e0deb54cf578832a49/main.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/sass/.sass-cache/4b465e9dbe458ad09f0961e0deb54cf578832a49/main.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_01base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_01base.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_02variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_02variables.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_03page.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_03page.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_04fixtop.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_04fixtop.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_05header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_05header.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_06firstform.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_06firstform.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_07inputs.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_07inputs.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_08sidemenu.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_08sidemenu.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_09colors.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_09colors.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_animations.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_animations.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_gallery.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_gallery.scssc",
+		"oF": 0
+		},
+	"/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_mediaqueries.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/sass/.sass-cache/e2f968c53bce6011e8a68f04be54d6569f18dcf3/_mediaqueries.scssc",
+		"oF": 0
 		},
 	"/src/sass/components/_01base.scss": {
 		"aP": 0,
@@ -817,8 +913,8 @@
 		"oA": 0,
 		"oAP": "/docs/css/main.min.css",
 		"oF": 3,
-		"oS": 1,
-		"uL": 1
+		"oS": 3,
+		"uL": 0
 		},
 	"/src/svg/a-large-file.svg": {
 		"ft": 2097152,
