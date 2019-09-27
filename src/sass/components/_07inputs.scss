@@ -85,9 +85,7 @@
     margin-bottom: 2rem;
   }
 
-label p{
-  margin-top: 5px;
-}
+
   .control_indicator{
 display: block;
 left:36%;
@@ -110,7 +108,7 @@ margin-bottom: 6rem;
 }
   .control_indicator {
       position: absolute;
-      top: 0px;
+      top: -5px;
       left: 0;
       height: 30px;
       width: 30px;
